@@ -14,7 +14,7 @@ service_schedule = {"-": 0, "Oil change" : 35, "Tire rotation" : 19, "Car wash" 
 # Type your code here
 service_schedule = {"-": 0,"Oil change" : 35, "Tire rotation" : 19, "Car wash" : 7, "Car wax": 12}
 first_service = ""
-second_service = ""
+secondservice = ""
 invoice_total = 0
 print("Davy's auto shop services")
 print("Oil change -- $35")
@@ -27,3 +27,10 @@ first_service = input("Select first service:\n")
 print(first_service)
 secondservice = input("Select second service:\n")
 print(secondservice)
+
+print("Davy's auto shop invoice")
+print()
+if(first_service = "-"):
+  print("Service 1: No service")
+else:
+  print("Service 1: 
