@@ -33,4 +33,4 @@ print()
 if(first_service = "-"):
   print("Service 1: No service")
 else:
-  print("Service 1: 
+  print("Service 1:", first_service, service_schedule[first_service])
