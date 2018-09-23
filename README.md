@@ -1,12 +1,35 @@
 # 4.12
 python code 4.12
 # Jake test 1
-# Menu of Automotive Services
-print('Davy's auto shop services')
-print('Oil change -- $35')
-print('Tire rotation -- $19')
-print('Car wash -- $7')
-print('Car wax -- $12')
+service_schedule = {"-": 0,"Oil change" : 35, "Tire rotation" : 19, "Car wash" : 7, "Car wax": 12}
+first_service = ""
+second_service = ""
+print("Davy's auto shop services")
+print("Oil change -- $35")
+print("Tire rotation -- $19")
+print("Car wash -- $7")
+print("Car wax -- $12")
+print("")
+
+first_service = input("Select first service:\n")
+
+second_service = input("Select second service:\n")
+print()
+
+print("Davy's auto shop invoice")
+print()
+if(first_service == "-"):
+  print("Service 1: No service")
+else:
+  print("Service 1:", first_service, service_schedule[first_service])
+  
+if(second_service == "-"):
+  print("Service 2: No service")
+else:
+  print("Service 2:", second_service, service_schedule[second_service])
+
+invoice = service_schedule[second_service] + service_schedule[first_service]
+print("Total:", invoice)
 
 
 #james
