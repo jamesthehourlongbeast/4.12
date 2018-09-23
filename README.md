@@ -23,9 +23,9 @@ print("Car wax -- $12")
 print("")
 
 first_service = input("Select first service:\n")
-print(first_service)
+
 secondservice = input("Select second service:\n")
-print(secondservice)
+print()
 
 print("Davy's auto shop invoice")
 print()
