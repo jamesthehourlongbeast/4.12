@@ -38,3 +38,6 @@ if(secondserviceservice == "-"):
   print("Service 2: No service")
 else:
   print("Service 2:", secondservice, service_schedule[secondservice])
+
+invoice = service_schedule[secondservice] + service_schedule[first_service]
+print("Total:" invoice)
