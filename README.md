@@ -32,7 +32,7 @@ invoice = service_schedule[second_service] + service_schedule[first_service]
 print("Total:", invoice)
 
 
-#james
+#james johnson
 # Type your code here
 service_schedule = {"-": 0,"Oil change" : 35, "Tire rotation" : 19, "Car wash" : 7, "Car wax": 12}
 first_service = ""
