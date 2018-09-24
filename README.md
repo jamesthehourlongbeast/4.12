@@ -37,7 +37,7 @@ print("Total:", invoice)
 service_schedule = {"-": 0,"Oil change" : 35, "Tire rotation" : 19, "Car wash" : 7, "Car wax": 12}
 first_service = ""
 secondservice = ""
-invoice_total = 0
+
 print("Davy's auto shop services")
 print("Oil change -- $35")
 print("Tire rotation -- $19")
