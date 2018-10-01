@@ -167,11 +167,11 @@ while arrow_head_width <= arrow_base_width:
 arrow_head_width = int(input('Enter arrow head width:\n'))
 print('')
 
-for i in range (arrow_base_height):
-    i = ('*' * arrow_base_width)
-    print(i)
-for j in range(arrow_head_width):
-    j = '*' * arrow_head_width
-    print (j)
+for b in range (arrow_base_height):
+    b = ('*' * arrow_base_width)
+    print(b)
+for h in range(arrow_head_width):
+    h = '*' * arrow_head_width
+    print (h)
     arrow_head_width -= 1
 
