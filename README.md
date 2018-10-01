@@ -96,3 +96,4 @@ else:
 invoice = service_schedule.get(first_service) + service_schedule.get(secondservice)
 print()
 print("Total: $%d" % (invoice))
+# 5.13
