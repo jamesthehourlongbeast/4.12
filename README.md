@@ -142,7 +142,9 @@ while num_rolls >= 1:
         if roll_total == 12:
             num_twelve = num_twelve + 1
         print('Roll %d is %d (%d + %d)' % (i, roll_total, die1, die2))
-
+        num_rolls = num_rolls - 1
+    j = '*' * num_nine
+    i = '*' * num_eight
     print('\nDice roll statistics:')
     print('2s:', num_two)
     print('3s:', num_three)
@@ -150,8 +152,8 @@ while num_rolls >= 1:
     print('5s:', num_five)
     print('6s:', num_sixes)
     print('7s:', num_sevens)
-    print('8s:', num_eight)
-    print('9s:', num_nine)
+    print('8s:', i)
+    print('9s:', j)
     print('10s:', num_ten)
     print('11s:', num_eleven)
     print('12s:', num_twelve)
@@ -175,3 +177,13 @@ for h in range(arrow_head_width):
     print (h)
     arrow_head_width -= 1
 
+#5.14
+triangle_char = input('Enter a character: ')
+triangle_height = int(input('Enter triangle height: '))
+print('')
+
+George = 0;
+
+while George <= triangle_height :
+    print(triangle_char * George)
+    George = George + 1
