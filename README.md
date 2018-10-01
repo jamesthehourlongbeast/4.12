@@ -143,8 +143,17 @@ while num_rolls >= 1:
             num_twelve = num_twelve + 1
         print('Roll %d is %d (%d + %d)' % (i, roll_total, die1, die2))
         num_rolls = num_rolls - 1
-    j = '*' * num_nine
-    i = '*' * num_eight
+    num_two = '*' * num_two
+    num_three = '*' * num_three
+    num_four = '*' * num_four
+    num_five = '*' * num_five
+    num_six = '*' * num_six
+    num_seven = '*' * num_seven
+    num_eight = '*' * num_eight
+    num_nine = '*' * num_nine
+    num_ten = '*' * num_ten
+    num_eleven = '*' * num_eleven
+    num_twelve = '*' * num_twelve
     print('\nDice roll statistics:')
     print('2s:', num_two)
     print('3s:', num_three)
@@ -152,8 +161,8 @@ while num_rolls >= 1:
     print('5s:', num_five)
     print('6s:', num_sixes)
     print('7s:', num_sevens)
-    print('8s:', i)
-    print('9s:', j)
+    print('8s:', num_eight)
+    print('9s:', num_nine)
     print('10s:', num_ten)
     print('11s:', num_eleven)
     print('12s:', num_twelve)
