@@ -115,6 +115,8 @@ if num_rolls >= 1:
             num_sixes = num_sixes + 1
         if roll_total == 7:
             num_sevens = num_sevens + 1
+        if roll_total == 8:
+            num_eight == num_eight + 1
         print('Roll %d is %d (%d + %d)' % (i, roll_total, die1, die2))
 
     print('\nDice roll statistics:')
