@@ -144,7 +144,16 @@ while num_rolls >= 1:
         print('Roll %d is %d (%d + %d)' % (i, roll_total, die1, die2))
 
     print('\nDice roll statistics:')
+    print('2s:', num_two)
+    print('3s:', num_three)
+    print('4s:', num_four)
+    print('5s:', num_five)
     print('6s:', num_sixes)
     print('7s:', num_sevens)
+    print('8s:', num_eight)
+    print('9s:', num_nine)
+    print('10s:', num_ten)
+    print('11s:', num_eleven)
+    print('12s:', num_twelve)
 else:
     print('Invalid number of rolls. Try again.')
