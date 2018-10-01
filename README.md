@@ -99,9 +99,17 @@ print("Total: $%d" % (invoice))
 # 5.13
 
 import random
-
+num_two = 0
+num_three = 0
+num_four = 0
+num_five = 0
 num_sixes = 0
 num_sevens = 0
+num_eight = 0
+num_nine = 0
+num_ten = 0
+num_eleven = 0
+num_twelve = 0
 num_rolls = int(input('Enter number of rolls:\n'))
 
 if num_rolls >= 1:
@@ -117,6 +125,8 @@ if num_rolls >= 1:
             num_sevens = num_sevens + 1
         if roll_total == 8:
             num_eight == num_eight + 1
+        if roll_total == 9:
+            num_nine == num_nine + 1
         print('Roll %d is %d (%d + %d)' % (i, roll_total, die1, die2))
 
     print('\nDice roll statistics:')
