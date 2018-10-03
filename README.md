@@ -169,7 +169,7 @@ while num_rolls >= 1:
 else:
     print('Invalid number of rolls. Try again.')
     
-    #5.15
+   
 triangle_char = input('Enter a character:\n')
 triangle_height = int(input('Enter triangle height:\n'))
 print('')
@@ -195,7 +195,7 @@ while kv < triangle_height:
         k += 1
     print('')
     kv += 1
-    
+    #5.15
  arrow_base_height = int(input('Enter arrow base height:\n'))
 arrow_base_width = int(input('Enter arrow base width:\n'))
 arrow_head_width = int(input('Enter arrow head width:\n'))
