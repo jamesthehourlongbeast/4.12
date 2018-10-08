@@ -225,10 +225,18 @@ for j in range(arrow_head_width):
 def get_num_of_characters(inputStr):
     # Type your code here
     return
+def get_num_of_characters(inputStr):
+    count = 0
+    for i in range(len(inputStr)):
+        count += 1
+    return count
 
+def output_without_whitespace(inputStr):
+    inputStr = inputStr.replace(' ','')
+    print('String with no whitespace: %s' %inputStr)
 
 if __name__ == '__main__':
-    inputStr=input("Enter a sentence or phrase:")
+    inputStr = input('Enter a sentence or phrase:\n')
     
     print("You entered: ",inputStr)
 
