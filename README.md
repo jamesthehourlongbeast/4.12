@@ -228,4 +228,12 @@ def get_num_of_characters(inputStr):
 
 
 if __name__ == '__main__':
-    # Type your code here
+    inputStr=input("Enter a sentence or phrase:")
+    
+    print("You entered: ",inputStr)
+
+    noOfChars=get_num_of_characters(inputStr);
+    print("\nNumber of characters: ",noOfChars)
+
+    stringWithoutSpace=output_without_whitespace(inputStr);
+    print("String with no whitespace: ",stringWithoutSpace)
