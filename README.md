@@ -223,9 +223,6 @@ for j in range(arrow_head_width):
     arrow_head_width -= 1
 # 6.18
 def get_num_of_characters(inputStr):
-    # Type your code here
-    return
-def get_num_of_characters(inputStr):
     count = 0
     for i in range(len(inputStr)):
         count += 1
