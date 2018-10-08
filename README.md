@@ -221,3 +221,11 @@ for j in range(arrow_head_width):
     j = '*' * arrow_head_width
     print (j)
     arrow_head_width -= 1
+# 6.18
+def get_num_of_characters(inputStr):
+    # Type your code here
+    return
+
+
+if __name__ == '__main__':
+    # Type your code here
