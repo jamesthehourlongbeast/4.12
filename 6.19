@@ -1,0 +1,7 @@
+def print_menu(inputStr):
+
+    print('MENU\nc - Number of non-whitespace characters\nw - Number of words\nf - Fix capitalization\nr - Replace punctuation\ns - Shorten spaces\nq - Quit\n')
+    menu_choice = input('Choose an option:\n')
+    while (menu_choice != 'c' and menu_choice != 'w' and menu_choice != 'f' and menu_choice != 'r' and menu_choice != 's' and menu_choice != 'q'):
+        menu_choice = input('Choose an option:\n')
+    return menu_choice
