@@ -5,3 +5,10 @@ def print_menu(inputStr):
     while (menu_choice != 'c' and menu_choice != 'w' and menu_choice != 'f' and menu_choice != 'r' and menu_choice != 's' and menu_choice != 'q'):
         menu_choice = input('Choose an option:\n')
     return menu_choice
+    def get_num_of_non_WS_characters(inputStr):
+
+    white_space = 0
+    for character in inputStr:
+        if(character == ' ' or character == '\t'):
+            white_space += 1
+    return (len(inputStr) - white_space)
