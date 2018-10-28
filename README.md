@@ -261,4 +261,5 @@ if __name__ == '__main__':
     print('Number of characters: %s' %(get_num_of_characters(inputStr)))
     output_without_whitespace(inputStr)
 
-7.6
+# 7.6
+
