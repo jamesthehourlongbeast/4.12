@@ -347,6 +347,11 @@ print(Number_of_vowels, Number_of_Constants)
 
 def main():
     words = str(input("English Sentence: ")).split()
+for word in words:
+        print(word[1:] + word[0] + "ay", end = " ")
+    print()
+
+main()    
 
 
 
