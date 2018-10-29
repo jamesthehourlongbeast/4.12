@@ -343,7 +343,10 @@ for char in random_statement:
 
 print(Number_of_vowels, Number_of_Constants)      
 
+  # Pig Latin
 
+def main():
+    words = str(input("English Sentence: ")).split()
 
 
 
