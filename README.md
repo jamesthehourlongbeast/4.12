@@ -262,6 +262,12 @@ if __name__ == '__main__':
     output_without_whitespace(inputStr)
 
 # 7.6
+#Jake Try 1
+
+while True:
+  input_string = input('Enter input string: ')
+  if input_string == 'q' or input_string == 'Q':
+    break
 
 
 # Chapter 7 Additional Exercises
