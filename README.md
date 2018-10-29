@@ -262,8 +262,24 @@ if __name__ == '__main__':
     output_without_whitespace(inputStr)
 
 # 7.6
-#Jake Try 1
-
+# #Jake Try 1
+while True:
+        str = input('Enter input string: ')
+        print("\n".rstrip("\n"))
+        if(str!='q'):          
+            str=str.replace(' ', '')
+            if ',' in str:
+                
+                str=str.split(',')
+            
+                print ('First word: ' + str[0])
+                print ('Second word: ' + str[1])
+                print("\n".rstrip("\n"))
+            else:
+                print('Error: No comma in string.\n')
+        else:
+          break
+#
 
   input_string = input('Enter input string with commas: ')
   if ',' in input_string:
