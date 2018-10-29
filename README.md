@@ -266,7 +266,7 @@ if __name__ == '__main__':
 
 
   input_string = input('Enter input string with commas: ')
-  if if ',' in input_string: 
+  if ',' in input_string:
     continue
   else:
     print('Error No commas')
