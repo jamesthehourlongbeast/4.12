@@ -266,8 +266,11 @@ if __name__ == '__main__':
 
 while True:
   input_string = input('Enter input string: ')
-  if input_string == 'q' or input_string == 'Q':
+  if if ',' in input_string: 
+    continue
+  else:
     break
+ 
 
 
 # Chapter 7 Additional Exercises
