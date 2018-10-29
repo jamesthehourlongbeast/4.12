@@ -284,5 +284,9 @@ names = string.split()
 for firstletter in names:
     print(firstletter[0] + ".")
 
+  # Alphabetic Telephone #
+phoneNum = input('Enter the number in the format of XXX-XXX-XXXX\n')
+print(phoneNum)
+newPhoneNumber = ''
 
 
