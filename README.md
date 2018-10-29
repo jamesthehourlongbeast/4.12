@@ -278,14 +278,11 @@ print(split_name)
 main()
 
 try2
-def main():
-    string = input("Enter in your First, Middle and last name:")    
+string = input("Enter in your First, Middle and last name:")    
 
 names = string.split()
 for firstletter in names:
     print(firstletter[0] + ".")
 
-
-main()
 
 
