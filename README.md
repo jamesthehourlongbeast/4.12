@@ -263,3 +263,17 @@ if __name__ == '__main__':
 
 # 7.6
 
+
+# Chapter 7 Additional Exercises
+  # Print Names
+#jake try1
+
+def main():
+    name = input("Enter in your First, Middle and last name:")    
+
+split_name = name.split()
+
+print(split_name)
+
+main()
+
