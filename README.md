@@ -264,11 +264,12 @@ if __name__ == '__main__':
 # 7.6
 #Jake Try 1
 
-while True:
-  input_string = input('Enter input string: ')
+
+  input_string = input('Enter input string with commas: ')
   if if ',' in input_string: 
     continue
   else:
+    print('Error No commas')
     break
  
 
