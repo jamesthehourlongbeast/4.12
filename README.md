@@ -325,5 +325,22 @@ for char in phoneNum:
         char = '9'
     
     newPhoneNumber = newPhoneNumber + char
+    
+    #VOWELS
+    random_statement = input("Enter stament")
+
+
+
+print(random_statement)
+
+Number_of_vowels = 0
+Number_of_Constants = 0
+for char in random_statement:
+    if char == 'A'or char == 'E' or char == 'I' or char == 'O' or char == 'U':
+        Number_of_vowels += 1
+    else:
+        Number_of_Constants += 1
+
+print(Number_of_vowels, Number_of_Constants)  
 
 
