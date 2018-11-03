@@ -379,5 +379,28 @@ for word in words:
 
 main()    
 
+# Chapter 8 additional exercises 
+#rainfall
+
+mntName=["Jan","Feb","Mar","Apr","May","Jun","July","Aug","Sep","Oct","Nov","Dec"]
+
+totRain=[0]*12
+
+sum=0
+
+for i in range(12):
+
+    totRain[i]=int(input("Enter Total Rain in "+mntName[i]+": "))
+
+sum+=totRain[i]
+
+print("""\n\nTotal Rainfall: """+str(sum)+"""\nAverage Monthly Rainfall: """+str(sum/12)+"""
+
+\nLowest Rainfall: """+str(min(totRain))+""" In month of """+str(mntName[totRain.index(min(totRain))])+"""
+
+\nHighest Rainfall: """+str(max(totRain))+""" In month of """+str(mntName[totRain.index(max(totRain))]))
+
+
+
 
 
