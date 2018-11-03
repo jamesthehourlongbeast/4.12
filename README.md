@@ -380,7 +380,7 @@ for word in words:
 main()    
 
 # Chapter 8 additional exercises 
-#rainfall
+# rainfall
 
 mntName=["Jan","Feb","Mar","Apr","May","Jun","July","Aug","Sep","Oct","Nov","Dec"]
 
