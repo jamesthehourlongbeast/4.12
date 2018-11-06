@@ -378,6 +378,37 @@ for word in words:
     print()
 
 main()    
+# CHAPTER 8 8.16
+# 8.16 Ch 8 Warm up: People's weights (Lists) (Python 3)
+entered_weights = []
+
+i = 0
+
+while i < 4:
+
+    weight = float(input('Enter weight %i:\n' % (i+1)))
+
+    entered_weights.append(weight)
+
+    i += 1
+
+print('Weights:', entered_weights)
+
+print('\nAverage weight: %.2f' % (sum(entered_weights)/len(entered_weights)))
+
+print('Max weight: %.2f' % (max(entered_weights)))
+
+
+
+list_index_for_weights = int(input('\nEnter a list index (1 - 4):\n'))
+
+print('Weight in pounds: %.2f' % (entered_weights[list_index_for_weights - 1]))
+
+print('Weight in kilograms: %.2f' % (entered_weights[list_index_for_weights - 1] / 2.2))
+
+
+
+print('\nSorted list:', sorted(entered_weights))
 
 # Chapter 8 additional exercises 
 # rainfall
