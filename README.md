@@ -446,3 +446,8 @@ for encrypted_codes in codes.values():
     print(encrypted_codes)
 
 
+# Created List
+
+top_films = ['Bohemian Rhapsody', 'The Nutcracker and the Four Realms', 'Nobody''s Fool', 'A Star is Born', 'Halloween']
+
+
