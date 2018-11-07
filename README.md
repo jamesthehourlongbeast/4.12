@@ -448,7 +448,41 @@ for encrypted_codes in codes.values():
 
 # Created List
 
-top_films = ['Bohemian Rhapsody', 'The Nutcracker and the Four Realms', 'Nobody''s Fool', 'A Star is Born',
-             'Halloween', 'Venom', 'Smallfoot', 'Goosebumps 2', 'Hunter Killer', 'The Hate You Give']
+top_films1 = ['Bohemian Rhapsody', 'The Nutcracker and the Four Realms',
+             'Nobody''s Fool', 'A Star is Born', 'Halloween']
+topfilms2 = ['Venom', 'Smallfoot', 'Goosebumps 2', 'Hunter Killer' , 'The Hate You Give']
+print(top_films1)
+print()
+print(topfilms2)
+top_ten_films = top_films1 + topfilms2
+print()
+print('Top ten films:', top_ten_films)
+top_ten_films.sort()
+print()
+print('Sorted top ten films:', top_ten_films)
+print()
+print('Top five movies:', top_ten_films[0:5])
+print()
+print('Number one film:', top_ten_films[0])
+
+# Dictionary
+
+top_films1 = {'Bohemian Rhapsody': 1, 'The Nutcracker and the Four Realms': 2,
+             'Nobody''s Fool': 3, 'A Star is Born': 4, 'Halloween': 5, 'Venom': 6
+              , 'Smallfoot': 7, 'Goosebumps 2': 8, 'Hunter Killer': 9}
+print(top_films1)
+top_films1['The Hate You Give'] = 10
+top_films1['Red'] = 11
+print()
+print(top_films1)
+print()
+del top_films1['Red']
+print(top_films1)
+print()
+movie = input('Enter a movie to see if its in the top ten')
+if 'movie' in top_films1:
+    print(top_films1[Red2])
+else:
+    print('Not in the top ten movies')
 
 
