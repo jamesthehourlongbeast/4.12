@@ -448,6 +448,7 @@ for encrypted_codes in codes.values():
 
 # Created List
 
-top_films = ['Bohemian Rhapsody', 'The Nutcracker and the Four Realms', 'Nobody''s Fool', 'A Star is Born', 'Halloween']
+top_films = ['Bohemian Rhapsody', 'The Nutcracker and the Four Realms', 'Nobody''s Fool', 'A Star is Born',
+             'Halloween', 'Venom', 'Smallfoot', 'Goosebumps 2', 'Hunter Killer', 'The Hate You Give']
 
 
