@@ -506,3 +506,8 @@ def main():
     print("\n Item 1 \n");
     
    #JAMES
+def main():
+    print('Item 1')
+    name_of_item_1 = input('Enter the item name:\n')
+    price_of_item_1 = int(input('Enter the item price:\n'))
+    quantity_of_item_1 = int(input('Enter the item quantity:\n\n'))   
