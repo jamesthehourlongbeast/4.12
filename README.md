@@ -627,3 +627,30 @@ print('Here is the data that you have entered')
 print('Manufacturer: ' + phone.get_manufact())
 print('Model Number: ' + phone.get_model())
 print('Retail Price: $' + '%.2f' % phone.get_retail_price())
+
+#Name Selects
+class Person:
+
+    def init(self, name, ID, Department):
+        self.Personname = name
+        self.PersonID = ID
+        self.PersonDepartment = Department 
+    def str(self):
+        return self.Personname+ " " + self.PersonDepartment+ ", " + str(self.PersonID)
+
+class Employee(Person):
+
+    def init(self, name, ID, Department, Title):
+        super().init(name, ID, Department)
+
+        self.StaffTitle = Title
+    def str(self):
+        return super().str() + ", " +  self.StaffTitle
+
+x = Employee("Susan Meyers", 47899, "Accounting", "Vice president")
+y = Employee("Marke Jones", 39119, "IT", "programming")
+z = Employee("Joy Rogers", 81774, "Manufacturing", "Engineering")
+
+print(x)
+print(y)
+print(z)
