@@ -504,6 +504,39 @@ def main():
 
   
     print("\n Item 1 \n");
+
+i1 = ItemToPurchase();
+  
+
+i1.item_name = input(' Enter the item name: ');
+i1.item_price = int(input('\n Enter the item price: '));
+i1.item_quantity = int(input('\n Enter the item quantity: '));
+  
+print("\n\n\n Item 2 \n");
+  
+
+i2 = ItemToPurchase();
+  
+
+i2.item_name = input(' Enter the item name: ');
+i2.item_price = int(input('\n Enter the item price: '));
+i2.item_quantity = int(input('\n Enter the item quantity: '));
+  
+print("\n\n\n TOTAL COST \n\n");
+  
+
+i1.print_item_cost();
+i2.print_item_cost();
+  
+  
+total = (i1.item_price * i1.item_quantity) + (i2.item_price * i2.item_quantity);
+  
+  
+print("\n\n Total: $" + str(total));
+  
+
+main()
+
     
    #JAMES
 def main():
