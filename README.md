@@ -544,3 +544,50 @@ def main():
     name_of_item_1 = input('Enter the item name:\n')
     price_of_item_1 = int(input('Enter the item price:\n'))
     quantity_of_item_1 = int(input('Enter the item quantity:\n\n'))   
+    
+#James
+def __init__(self):
+
+        self.item_name = "none";
+        self.item_price = 0;
+        self.item_quantity = 0;
+  
+def print_item_cost(self):
+    self.print_cost = (self.item_quantity * self.item_price)
+
+    print(" " + self.item_name + " " + str(self.item_quantity) + " @ $" + str(self.item_price) + " = $" + str( self.item_price * self.item_quantity ));
+  
+
+def main():
+
+  
+    print("\n Item 1 \n");
+
+
+  
+
+item1_name = input(' Enter the item name: ');
+item1_price = int(input('\n Enter the item price: '));
+item1_quantity = int(input('\n Enter the item quantity: '));
+  
+print("\n\n\n Item 2 \n");
+  
+
+
+  
+
+item2_name = input(' Enter the item name: ');
+item2_price = int(input('\n Enter the item price: '));
+item2_quantity = int(input('\n Enter the item quantity: '));
+  
+print("\n\n\n TOTAL COST \n\n");
+  
+
+Item1.print_item1_cost();
+Item2.print_item2_cost();
+  
+  
+total = (i1.item_price * i1.item_quantity) + (i2.item_price * i2.item_quantity);
+  
+  
+print("\n\n Total: $" + str(total));
